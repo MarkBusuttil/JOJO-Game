@@ -22646,26 +22646,6 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Bones/Torso/Head
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Bones/Torso/Head
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: Bones/Torso/Head
     classID: 4
@@ -22676,18 +22656,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Bones/Torso/L Leg/LB Leg /L Foot
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bones/Torso/L Leg/LB Leg /L Foot
+    path: Bones/Torso/Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22697,7 +22667,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bones/Torso/L Leg/LB Leg /L Foot
+    path: Bones/Torso/Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22707,7 +22677,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: 'Bones/Torso/L Leg/LB Leg '
+    path: Bones/Torso/L Leg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22717,7 +22687,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: 'Bones/Torso/L Leg/LB Leg '
+    path: Bones/Torso/L Leg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22727,7 +22697,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: 'Bones/Torso/L Leg/LB Leg '
+    path: Bones/Torso/L Leg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22737,7 +22707,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bones/Torso/R Leg
+    path: Bones/Torso/L Arm/L Hand
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22747,7 +22717,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bones/Torso/R Leg
+    path: Bones/Torso/L Arm/L Hand
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22757,37 +22727,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bones/Torso/R Leg
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Bones/Torso/R Leg/RB Leg/R Foot
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Bones/Torso/R Leg/RB Leg/R Foot
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Bones/Torso/R Leg/RB Leg/R Foot
+    path: Bones/Torso/L Arm/L Hand
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22827,7 +22767,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bones/Torso/R Arm/R Hand
+    path: Bones/Torso/R Leg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22837,7 +22777,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bones/Torso/R Arm/R Hand
+    path: Bones/Torso/R Leg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22847,7 +22787,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bones/Torso/R Arm/R Hand
+    path: Bones/Torso/R Leg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22857,7 +22797,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bones/Torso/L Leg
+    path: 'Bones/Torso/L Leg/LB Leg '
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22867,7 +22807,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bones/Torso/L Leg
+    path: 'Bones/Torso/L Leg/LB Leg '
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22877,7 +22817,37 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bones/Torso/L Leg
+    path: 'Bones/Torso/L Leg/LB Leg '
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Bones/Torso/L Leg/LB Leg /L Foot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Bones/Torso/L Leg/LB Leg /L Foot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Bones/Torso/L Leg/LB Leg /L Foot
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22946,8 +22916,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Bones/Torso/L Arm/L Hand
+    attribute: m_LocalEulerAngles.z
+    path: Bones/Torso/R Arm/R Hand
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22957,7 +22927,37 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bones/Torso/L Arm/L Hand
+    path: Bones/Torso/R Arm/R Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Bones/Torso/R Arm/R Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Bones/Torso/R Leg/RB Leg/R Foot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Bones/Torso/R Leg/RB Leg/R Foot
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22967,7 +22967,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bones/Torso/L Arm/L Hand
+    path: Bones/Torso/R Leg/RB Leg/R Foot
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
