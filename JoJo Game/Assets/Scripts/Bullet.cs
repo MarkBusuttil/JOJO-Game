@@ -26,7 +26,7 @@ public class Bullet : MonoBehaviour
 
         if (impactEffect != null)
         {
-    		Instantiate(impactEffect, transform.position, transform.rotation);
+    	Instantiate(impactEffect, transform.position, transform.rotation);
         }
 
 		Destroy(gameObject);

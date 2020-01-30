@@ -6,6 +6,13 @@ public class PlayerMovement : MonoBehaviour {
 
     public CharaterController2D controller2D;
 
+    [Header("Player Health")]
+        [SerializeField]
+        private int _lives = 2;
+
+        [SerializeField]
+        private SpawnManager _spawnManager;
+
     public float runSpeed = 40f;
     float horizontalMove = 0f;
     bool jump = false;
@@ -36,6 +43,18 @@ public class PlayerMovement : MonoBehaviour {
     {
         controller2D.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
+    }
+
+
+    void Damage()
+    {
+        _lives -= 1;
+
+        if (_lives < 1);
+        {
+            _spawnManager.OnPlayerDeath();
+            Destroy(this.gameObject);
+        }
     }
 
 }
